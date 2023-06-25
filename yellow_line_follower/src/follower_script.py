@@ -1,10 +1,4 @@
 #!/usr/bin/env python3
-
-#This program is to be used with line_follower_pkg and yellow_line.world. Once yellow_line.world
-# #is up and runnin and this program is launched, the turtlebot will begin to follow the yellow line
-#in the gazebo world. 
-#Please note; not happting with the whole shutdown process, in particular the use of 'gloal ctrl_c'
-
 import roslib
 import sys
 import rospy
@@ -120,3 +114,4 @@ def main():
 if __name__ == '__main__':
         main()
 
+#Change the HSV value to make the bot follow any colour of the track as per your wish .
